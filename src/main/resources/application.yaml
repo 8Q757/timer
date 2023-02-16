@@ -1,0 +1,22 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /timer
+
+spring:
+  application:
+    name: timer
+
+rocketmq:
+  name-server:
+  producer:
+    accessKey:
+    secretKey:
+    group: PRODUCER_GROUP
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    serviceUrl:
+      defaultZone:
